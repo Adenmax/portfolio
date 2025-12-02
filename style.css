@@ -3,6 +3,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.all {
+  width: 100%;
+  overflow-x: hidden;
+}
 h1 {
   /* text-decoration: underline; */
   padding-left: 15px;
@@ -14,10 +18,8 @@ h1 {
 }
 .topinfo {
   transform: translateY(-10px);
-  padding: 15px;
-  padding-left: 500px;
-  padding-right: 500px;
-  align-content: center;
+  width: 100%;
+  justify-content: center;
   background-color: rgba(155, 14, 33, 0.795);
   position: fixed;
   display: flex;
@@ -52,6 +54,8 @@ h1:hover {
   color: hsl(56, 81%, 52%);
 }
 .info {
+  justify-content: centers;
+  width: 100%;
   display: flex;
   background-color: rgb(155, 14, 33);
   /* margin: 400px; */
